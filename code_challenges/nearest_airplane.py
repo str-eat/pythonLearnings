@@ -8,6 +8,7 @@ eiffel_tower = {'name' : 'Eiffel Tower', 'longitude' : 48.8584, 'latitude' : 2.2
 jfk = {'name' : 'JFK', 'longitude' : 40.6413, 'latitude' : -73.7781, 'altitude' : 0}
 destinations = [eiffel_tower, jfk]
 
+# Daniel Streater
 # these not used yet
 radius_of_earth_miles = 3959
 radius_of_earth_kilometers = 6371
