@@ -36,7 +36,8 @@ for shoe in shoe_files:
                             output['Material'] = d
                         else:
                             material = adjective_of(d.lower(), shoe)
-                            output['Material'] = material
+                            if material in material_types:
+                                output['Material'] = material
             if 'padd' in line:
                 output['Features'] = 'Padding'
     print(output)
